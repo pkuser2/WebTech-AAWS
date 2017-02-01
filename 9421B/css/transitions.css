@@ -1,0 +1,24 @@
+#slides {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slides {
+    100% { left: 0; }
+}
+
+@keyframes slides {
+    100% { left: 0; }
+}
+
+.wrapper:hover #slides {
+    transition: 1s;
+    left: 0;
+}
