@@ -1034,7 +1034,7 @@ footer {
 .copy {
 	text-align: center;
 	color: #fff;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 
@@ -1078,7 +1078,8 @@ left:50%;
 	color: black; 
 	letter-spacing: 9px; 
 	font-family: verdana; 
-	font-size: 40px; 
+	font-size: 85px; 
+	color: #ea353e;
 	position: absolute;
 	}
 #pos1 {
