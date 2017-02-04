@@ -11,6 +11,72 @@ input {
 	outline:  none !important;
 }
 
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1200px;
+        margin-top: 6%;
+        font-size: 17px;
+        color: #000000;
+        background-color: #ffffff;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container h1{
+    	font-size: 30px;
+    }
+    /* Prevent columns outside */
+    
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Columns */
+    /* Column Gutters */
+    /*-- setting border box on all elements inside the grid --*/
+    
+    .container * {
+        box-sizing: border-box;
+    }
+    
+    [class*='col-'] {
+        float: left;
+        min-height: 1px;
+        width: 16.66%;
+        padding: 10px;
+    }
+    
+    .col-1 {
+        width: 16.66%;
+    }
+    
+    .col-2 {
+        width: 33.33%;
+    }
+    
+    .col-3 {
+        width: 50%;
+    }
+    
+    .col-4 {
+        width: 66.66%;
+    }
+    
+    .col-5 {
+        width: 83.33%;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .center-block {
+        margin: 0 auto;
+    }
+
 
 html {
 	width: 100%;
@@ -34,6 +100,14 @@ body {
 	background: #000;
 	background: url(../images/histobg.jpeg) center 0 no-repeat fixed;
 
+}
+
+.main .histoDescription{
+	float: right;
+}
+
+.main .picture{
+	float: left;
 }
 
 .ic, .ic a {
