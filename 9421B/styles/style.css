@@ -2,9 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-@import "../css/reset.css";
-@import "../css/grid.css";
-@import "../css/superfish.css";
+@import "../styles/reset.css";
+@import "../styles/grid.css";
+@import "../styles/superfish.css";
 
 
 input {
