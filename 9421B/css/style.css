@@ -998,43 +998,16 @@ address dd span {
 
 footer {
 	display: block;
+	background-color: #3ef27d;
 	padding: 25px 0;
 	color: #6b6868;
-}
-
-.socials  {
-	text-align: center;
-	margin-bottom: 21px;
-}
-
-.socials a {
-	margin: 0 5px;
-	display: inline-block;
-	width: 46px;
-	height: 46px;
-	background: url(../images/socials.png) 0 0 no-repeat;
-}
-
-.socials a+a {
-	background-position: -60px 0;
-}
-
-.socials a+a+a {
-	background-position: -122px 0;
-}
-
-.socials a+a+a+a {
-	background-position: right 0;
-}
-
-.socials a:hover {
-	opacity: 0.5;
 }
 
 .copy {
 	text-align: center;
 	color: #fff;
-	font-size: 12px;
+	font-size: 17px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 
