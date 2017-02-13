@@ -1,29 +1,44 @@
 
 
 /*Slider*/
+@keyframes slideee {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div.slider {
+	overflow: hidden; 
+	}
+div.slider figure img { 
+	width: 20%; 
+	float: left; 
+}
+div.slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slideee infinite; 
+}
+.slider-block {
+	position:relative;
+	height: 700px;
+	
+}
 .slider-relative {
 	position:relative;
 	overflow: hidden;
-	margin-top: 71px;
-}
-
-
-.items {
-	display: none;	
-	overflow: hidden;
-}
-
-.slider-block {
-	position:relative;
-	height: 724px;
-	
-}
-.slider {
-	z-index:2;
-	overflow: visible !important;
-	height: 724px;
-
-	position: relative;
+	margin-top: 10px;
 }
 
 
@@ -61,7 +76,7 @@ z-index: 999;
 */
 
 
-a.prev, a.next {
+div.slider .figure li.prev, div.slider.figure li.next {
 	width: 56px;
 	background: url(../images/prevnext.png) 0 0 no-repeat;
 	height: 112px;
@@ -73,14 +88,14 @@ a.prev, a.next {
 
 }
 
-a.next {
+li.next {
 	left: 101px;
 	width: 57px;
 	background-position: right bottom;
 
 }
 
-a.next:hover,a.prev:hover  {
+li.next:hover,li.prev:hover  {
 	opacity: 0.8;
 }
 
