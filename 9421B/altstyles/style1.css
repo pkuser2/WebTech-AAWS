@@ -57,10 +57,51 @@ input {
 	color: #a00b0b;
 }
 
-.container .col-3 {
+.text1{
+	font-size: 30px;
+	font-family: 'SansationLight' !important;
+	color: #a00b0b;
 }
 
-/* Columns */
+.price{
+	font-family: Trebuchet MS, "Helvetica", sans-serif;
+	color: #002349;
+	font-size: 16px;
+}
+
+.col-3 {
+	background-color: rgba(17, 134, 208, 0.51);
+}
+
+.grid_9{
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	padding-right: 100px;
+	background-color: rgba(17, 134, 208, 0.51);
+}
+
+.grid_9 h3{
+	font-family: 'SansationLight';
+	font-size: 30px;
+	color: #8e0e0e;
+	padding-bottom: 20px;
+}
+
+.col-3 table{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.omega{
+	margin-left: 100px;
+	padding-bottom: 100px;
+}
+
+.container_12{
+	display: block;
+	margin: auto;
+}
 
 
 /* Column Gutters */

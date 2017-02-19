@@ -22,6 +22,8 @@ h3{
 	color: #8e0e0e;
 }
 
+
+
 .text1{
 	font-family: 'SansationLight';
 	font-size: 60px;
@@ -71,8 +73,12 @@ body {
 
 
 .page1 h3 {
-	padding-top: 62px;
+	margin-top: 54px;
 	margin-bottom: 54px;
+	background-color: rgba(46, 255, 49, 0.50);
+	text-align: center;
+	font-size: 35px;
+	font-style: italic;
 }
 
 
@@ -265,7 +271,6 @@ a.link-1:hover {
 	float: none !important;
 	clear: both;
 }
-
 
 
 /*header*/
@@ -511,6 +516,15 @@ a.gal:hover img {
 	color: #000;
 }
 
+#tabs{
+	background-color: rgba(32, 212, 12, 0.5);
+	padding-bottom: 150px;
+}
+
+.grid_4{
+	background-color: rgba(32, 212, 12, 0.5);
+}
+
 #tabs ul li {
 	border-radius: 3px 3px 0 0;
 	float: left;
@@ -552,7 +566,7 @@ a.gal:hover img {
 }
 
 .text1 {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 19px;
 	color: #263555;
 }
@@ -597,6 +611,8 @@ p.text1.tx2 {
 	overflow: hidden;
 	padding-bottom: 20px;
 	margin-bottom: 32px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #newsletter span {
@@ -615,6 +631,7 @@ p.text1.tx2 {
 	text-align: center;
 	padding-top: 49px;
 	margin-bottom: 26px;
+	font-size: 20px;
 }
 
 .none {
@@ -1045,4 +1062,9 @@ footer {
 .grid_4 a{
 	font-size: 20px;
 	text-align: justify;
+}
+
+.newsletter_title{
+	color: #000000;
+	font-weight: bold;
 }
