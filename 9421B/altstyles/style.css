@@ -19,7 +19,6 @@ input {
 h3{
 	font-family: 'SansationLight';
 	font-size: 30px;
-	padding-bottom: 25px;
 	color: #8e0e0e;
 }
 
@@ -45,6 +44,15 @@ body {
 	position: relative;
 	min-width:960px;
 	background: url(../images/bg.jpg) center 0 no-repeat fixed;
+}
+
+.gallery h3{
+	background-color: rgba(46, 255, 49, 0.50);
+}
+
+.gallery h3{
+	text-align: center;
+	font-size: 35px;
 }
 
 .ic, .ic a {
@@ -1032,4 +1040,9 @@ footer {
 }
 #toTop:hover {
 	background-position: right 0;
+}
+
+.grid_4 a{
+	font-size: 20px;
+	text-align: justify;
 }
