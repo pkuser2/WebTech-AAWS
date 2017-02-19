@@ -41,41 +41,6 @@ div.slider figure {
 	margin-top: 10px;
 }
 
-
-/*
-
-.pagination {
-bottom: 14px;
-position: absolute;
-right: 157px;
-z-index: 999;
-}
-
-.pagination li {
-	float: left;
-}
-
-.pagination li+li {
-	margin-left: 4px;
-}
-
-
-.pagination  li a{
-	width: 15px;
-	display: block;
-		transition: 0s ease;
-	-o-transition: 0s ease;
-	-webkit-transition: 0s ease;
-	height: 15px;
-	background: url(../images/pagination.png) right 0 no-repeat;
-}
-
-.pagination li a:hover, .pagination li.current a {
-	background-position: 0 0;
-}
-*/
-
-
 div.slider .figure li.prev, div.slider.figure li.next {
 	width: 56px;
 	background: url(../images/prevnext.png) 0 0 no-repeat;

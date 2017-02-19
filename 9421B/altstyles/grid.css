@@ -23,7 +23,7 @@ body {
 .container_12 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1152px;
+	width: 100%;
 }
 
 /* Grid >> Global
@@ -111,7 +111,7 @@ body {
 }
 
 .container_12 .grid_8 {
-	width:744px;
+	width:800px;
 }
 
 .container_12 .grid_9 {

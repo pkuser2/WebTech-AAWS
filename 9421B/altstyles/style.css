@@ -6,14 +6,27 @@
 @import "../styles/grid.css";
 @import "../styles/superfish.css";
 
+@font-face {
+	font-family: 'SansationLight';
+	src: url('./SansationLight.eot');
+	src: local('SansationLight'), url('./SansationLight.woff') format('woff'), url('./SansationLight.ttf') format('truetype');
+}
 
 input {
 	outline:  none !important;
 }
 
+h3{
+	font-family: 'SansationLight';
+	font-size: 30px;
+	padding-bottom: 25px;
+	color: #8e0e0e;
+}
 
-html {
-	width: 100%;
+.text1{
+	font-family: 'SansationLight';
+	font-size: 60px;
+	color: #8e0e0e;
 }
 
  a[href^="tel:"] {
@@ -27,13 +40,11 @@ text-decoration:none;
 
 
 body {
-	font: 13px/22px  Arial, Helvetica, sans-serif;
-	color:#666565;
-	position:relative;
+	font: 20px 'Open Sans Condensed', sans-serif;
+	color:#000000;
+	position: relative;
 	min-width:960px;
-	background: #000;
 	background: url(../images/bg.jpg) center 0 no-repeat fixed;
-
 }
 
 .ic, .ic a {
@@ -49,34 +60,11 @@ body {
 	padding:0
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	font-family: 'Pathway Gothic One', sans-serif;
-	color: #263555;
-}
 
-h3 {
-	font-size: 30px;
-	line-height: 44px;
-	color: #263555;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-}
 
 .page1 h3 {
 	padding-top: 62px;
 	margin-bottom: 54px;
-}
-
-h4 {
-	font-size: 20px;
-	line-height: 20px;
-	font-weight: 300;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #fff;
-	text-transform: uppercase;
-	padding-top: 33px;
-	margin-bottom: 8px;
 }
 
 
@@ -101,7 +89,7 @@ ul.list li{
 	padding-left: 35px;
 	background: url(../images/marker.png) 0 3px no-repeat;
 	color: #263555;
-		font-size: 16px;
+	font-size: 16px;
 	line-height: 22.8px;
 	
 }
@@ -315,11 +303,6 @@ header h1 a img {
 	display: block;	
 }
 
-.main {
-	background: #fff;
-	width: 1270px;
-	margin: 0 auto;
-}
 .boxes {
 	margin-bottom: 70px;
 }
@@ -362,6 +345,7 @@ header h1 a img {
  -o-box-sizing: border-box;
  box-sizing: border-box;
 }
+
 
 figcaption h3 {
 	color: #ffffff;
@@ -470,6 +454,7 @@ a.gal:hover img {
 .content {
 	padding-top: 200px;
 	padding-bottom: 128px;
+	background-color: rgba(255, 255, 255, 0.70);
 }
 
 .page1 .content {
@@ -584,7 +569,7 @@ p.text1.tx2 {
 }
 
 .clear.cl1 {
-	height: 20px;margin-bottom: 2px;		
+	height: 50px;	
 }
 
 .newsletter_title {
@@ -1007,7 +992,7 @@ address dd span {
 
 footer {
 	display: block;
-	background-color: #3ef27d;
+	background-color: #22d825;
 	padding: 25px 0;
 	color: #6b6868;
 }
@@ -1015,8 +1000,8 @@ footer {
 .copy {
 	text-align: center;
 	color: #fff;
-	font-size: 17px;
-	font-family: "Trebuchet MS", Helvetica, sans-serif
+	font-size: 18px;
+	font-family: 'SansationLight' !important;
 }
 
 
