@@ -32,9 +32,10 @@ body {
 	position:relative;
 	min-width:960px;
 	background: #000;
-	background: url(../images/bg.jpg) center 0 no-repeat fixed;
+	background: url(bg2.jpg) center 0 no-repeat fixed;
 
 }
+/*Photo credited to Gab Aoyong */
 
 .ic, .ic a {
 	border:0;
@@ -52,13 +53,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	font-family: 'Pathway Gothic One', sans-serif;
-	color: #263555;
+	color: #fcfafa;
 }
 
 h3 {
 	font-size: 30px;
 	line-height: 44px;
-	color: #263555;
+	color: #fcfafa;
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
@@ -311,7 +312,7 @@ header h1 a img {
 }
 
 .main {
-	background: #868f8f;
+	background: transparent;
 	width: 100%;
 	margin: 0 auto;
 }
