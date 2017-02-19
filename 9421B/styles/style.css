@@ -32,7 +32,6 @@ body {
 	position:relative;
 	min-width:960px;
 	background: #000;
-	background: url(../images/bg.jpg) center 0 no-repeat fixed;
 
 }
 
@@ -67,7 +66,6 @@ h3 {
 	padding-top: 62px;
 	margin-bottom: 54px;
 }
-
 
 h4 {
 	font-size: 20px;
@@ -1021,31 +1019,8 @@ footer {
 }
 
 
-
 .f_bot {
 	padding-top: 26px;
 	padding-bottom: 40px;
 	color: #797979;
-}
-
-/**to top**/
-#toTop {
-	display:none;
-	text-decoration:none;
-	position:fixed;
-	bottom:30px;
-	margin-right: -620px !important;
-	overflow:hidden;
-	width:36px;
-	height:37px;
-	border:none;
-	text-indent:-999px;
-	z-index:999;
-	background:url(../images/totop.png) no-repeat left top;
-	transition: 0s ease;
-	-webkit-transition: 0s ease;
-	-o-transition: 0s ease;	
-}
-#toTop:hover {
-	background-position: right 0;
 }
